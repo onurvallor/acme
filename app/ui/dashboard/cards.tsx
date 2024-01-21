@@ -5,6 +5,7 @@ import {
   InboxIcon,
 } from '@heroicons/react/24/outline';
 import { lusitana } from '@/app/ui/fonts';
+import { sql } from '@vercel/postgres';
 
 const iconMap = {
   collected: BanknotesIcon,
